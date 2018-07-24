@@ -1,2 +1,21 @@
 @import 'btn_white';
 @import 'color.scss';
+
+body {
+    header {
+        nav {
+            ul {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+
+                li:nth-child(-n+3) {
+                    justify-content: center;
+                    border: red 1px solid;
+                }
+            }
+
+        }
+    }
+}

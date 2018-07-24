@@ -32,6 +32,16 @@ section {
 
 p {
   width: 30%;
-  font-size: 12px; }
+  font-size: 18px;
+  font-weight: 400; }
+
+body header nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+  body header nav ul li:nth-child(-n+3) {
+    justify-content: center;
+    border: red 1px solid; }
 
 /*# sourceMappingURL=style.css.map */
