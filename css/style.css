@@ -14,4 +14,24 @@
   padding: 1em 1.5em;
   margin-top: 1em; }
 
+h1, h2, h3, h4, p {
+  color: black;
+  font-weight: bolder;
+  font-style: arial sans-serif; }
+
+ul li a {
+  color: #5A506E;
+  margin: 1rem;
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+section {
+  display: flex; }
+
+p {
+  width: 30%;
+  font-size: 12px; }
+
 /*# sourceMappingURL=style.css.map */
